@@ -8,7 +8,6 @@ npm install
 
 ## Development
 
-To run react on browser
 ```
 npm start
 ```
