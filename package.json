@@ -26,7 +26,7 @@
     "start-react": "react-scripts start",
     "build": "react-scripts build",
     "pre-publish": "copyfiles package.json main.js node_modules/electron-is-dev/* ./build",
-    "publish": "npm run pre-publish && electron-packager ./build --all --asar --out publish",
+    "publish": "npm run pre-publish && electron-packager ./build --all --asar=true --out publish",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
